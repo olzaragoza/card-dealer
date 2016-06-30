@@ -10,14 +10,14 @@ private:
 
 	int heartsTotal = 0;
 	int clubsTotal = 0;
-	int	diamondsTotal = 0;
-	int	spadesTotal = 0;
-	
-	int deals = 0;	
+	int diamondsTotal = 0;
+	int spadesTotal = 0;
+
+	int deals = 0;
 	int cardNumber = 0;
 	int runTimes = 0;
 	int runCount = 0;
-		
+
 public:
 	Dealer();
 	~Dealer() {};

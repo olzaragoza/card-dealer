@@ -72,7 +72,7 @@ void Dealer::deal(int &r)
 			clubsTotal = clubsTotal + clubs;
 			diamondsTotal = diamondsTotal + diamonds;
 			spadesTotal = spadesTotal + spades;
-			hearts = clubs = diamonds =	spades = 0;
+			hearts = clubs = diamonds = spades = 0;
 		}
 	}
 }
@@ -80,7 +80,7 @@ void Dealer::deal(int &r)
 void Dealer::display()
 {
 	std::cout << "Run #" << runCount << ":  Hearts = " << hearts << ", Clubs = " << clubs
-		<< ", Diamonds = " << diamonds << ", Spades = " << spades  << std::endl;
+		<< ", Diamonds = " << diamonds << ", Spades = " << spades << std::endl;
 }
 
 void Dealer::displayTotals()
