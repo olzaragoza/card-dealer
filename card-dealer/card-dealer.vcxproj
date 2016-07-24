@@ -97,11 +97,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="card-dealer.cpp" />
-    <ClCompile Include="dealer.cpp" />
+    <ClInclude Include="..\src\Dealer.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Dealer.h" />
+    <ClCompile Include="..\src\card-dealer.cpp" />
+    <ClCompile Include="..\src\dealer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
