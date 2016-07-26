@@ -9,6 +9,8 @@ Dealer::Dealer()
 	srand(seed);
 }
 
+Dealer::~Dealer() {}
+
 void Dealer::welcome()
 {
 	std::cout

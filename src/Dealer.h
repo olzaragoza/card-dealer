@@ -20,7 +20,7 @@ private:
 
 public:
 	Dealer();
-	~Dealer() {};
+	~Dealer();
 
 	void welcome();
 	void validate(int &n);
