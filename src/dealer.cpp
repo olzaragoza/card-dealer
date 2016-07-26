@@ -1,4 +1,6 @@
-﻿#include <iostream>
+﻿/* dealer.cpp */
+
+#include <iostream>
 #include <time.h>
 #include "Dealer.h"
 
@@ -36,18 +38,23 @@ void Dealer::validate(int &n)
 		std::cin >> n;
 	}
 }
+
 void Dealer::randomCard()
 {
-	if (cardNumber <= 13)
+	if (cardNumber <= 13) {
 		clubs++;
+	}
 	else {
-		if (cardNumber <= 26)
+		if (cardNumber <= 26) {
 			diamonds++;
+		}
 		else {
-			if (cardNumber <= 39)
+			if (cardNumber <= 39) {
 				hearts++;
-			else
+			}
+			else {
 				spades++;
+			}
 		}
 	}
 }
@@ -95,5 +102,7 @@ void Dealer::displayTotals()
 			<< ", Spades = " << spadesTotal
 			<< "\n\n";
 	}
-	else { std::cout << "\n"; }
+	else {
+		std::cout << "\n";
+	}
 }
